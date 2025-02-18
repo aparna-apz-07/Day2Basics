@@ -9,6 +9,7 @@ import Basictb from './components/Basictb'
 import Greetingcard from './components/Greetingcard'
 import { Route, Routes } from 'react-router-dom'
 import StateBasics from './components/StateBasics'
+import Task from './components/Task'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -23,7 +24,9 @@ function App() {
          <Route path="/r"element={<Reg/>}/>
          <Route path="/t"element={<Basictb/>}/>
          <Route path="/c"element={<Greetingcard/>}/>
-         <Route path="/b"element={<StateBasics/>}/>
+         <Route path="/s"element={<StateBasics/>}/>
+         <Route path="/ts"element={<Task/>}/>
+
 
       </Routes>
       {/* <Reg/>  */}

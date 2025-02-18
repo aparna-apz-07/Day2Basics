@@ -12,19 +12,22 @@ const Navbar = () => {
                 News
               </Typography>
               <Button color="inherit">
-                <Link to={'/'} style={{color:'white'}}>Login</Link>
+                <Link to={'/'} style={{color:'white'}}>LOGIN</Link>
               </Button>
               <Button color="inherit">
-                <Link to={'/r'} style={{color:'white'}}>Register</Link>
+                <Link to={'/r'} style={{color:'white'}}>REGISTRATION</Link>
               </Button>
               <Button color="inherit">
-                <Link to={'/t'} style={{color:'white'}}>Details</Link>
+                <Link to={'/t'} style={{color:'white'}}>TABLE</Link>
               </Button>
               <Button color="inherit">
-                <Link to={'/c'} style={{color:'white'}}>more...</Link>
+                <Link to={'/s'} style={{color:'white'}}>STATE</Link>
               </Button>
               <Button color="inherit">
-                <Link to={'/b'} style={{color:'white'}}>state</Link>
+                <Link to={'/c'} style={{color:'white'}}>COUNTER</Link>
+              </Button>
+              <Button color="inherit">
+                <Link to={'/ts'} style={{color:'white'}}>TASK</Link>
               </Button>
               {/* <IconButton
             size="large"
